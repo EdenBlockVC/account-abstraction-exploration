@@ -1,0 +1,26 @@
+{
+    "name": "account-abstraction-exploration",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@biconomy-sdk-dev/core-types": "^1.0.21",
+        "@biconomy-sdk-dev/smart-account": "^1.0.21",
+        "@types/dotenv": "^8.2.0",
+        "bignumber.js": "^9.1.1",
+        "dotenv": "^16.0.3",
+        "ethers": "5",
+        "prettier": "^2.8.7",
+        "safe-buffer": "^5.2.1"
+    },
+    "devDependencies": {
+        "@types/bignumber.js": "^5.0.0",
+        "typescript": "^5.0.4"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "tsc && node dist/index.js",
+        "format": "prettier --write ."
+    }
+}
