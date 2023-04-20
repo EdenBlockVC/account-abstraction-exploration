@@ -8,5 +8,5 @@
         "forceConsistentCasingInFileNames": true,
         "outDir": "dist"
     },
-    "include": ["src/**/*.ts", "typings/*.d.ts"]
+    "include": ["src/**/*.ts", "typings/*.d.ts", "src/index.js"]
 }
