@@ -44,7 +44,8 @@ async function main() {
     console.log(smartAccountState);
 
     const tx = await smartAccountInitialized.deployWalletUsingPaymaster();
-    console.log(tx);
+    const txReceipt = await tx.wait();
+    console.log(txReceipt);
 
     process.exit(0);
 }
